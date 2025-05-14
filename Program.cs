@@ -142,7 +142,8 @@ builder.Services.AddCors(options =>
     {
         policy.WithOrigins(
                 "http://localhost:3000",
-                "https://yourproductiondomain.com"
+                "https://yourproductiondomain.com",
+                "http://collagemanagmentsystem.runasp.net"
               )
               .AllowAnyHeader()
               .AllowAnyMethod()
