@@ -1,4 +1,3 @@
-using Microsoft.AspNetCore.Http;  // For IHttpContextAccessor
 using Microsoft.EntityFrameworkCore;
 using System.Security.Claims;     // For accessing user claims
 using CollageMangmentSystem.Core.Entities;
